@@ -1,0 +1,114 @@
+.toastsWrapper {
+  position: fixed;
+  top: 12px;
+  right: 10px;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column-reverse;
+
+  transition: opacity 0.5s;
+}
+
+body {
+  position: relative;
+}
+
+@keyframes showToast {
+  0% {
+    transform: translateY(-200%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.toast {
+  width: 470px;
+  height: auto;
+
+  padding: 12px 6px;
+
+  display: flex;
+  align-items: center;
+
+  color: #363636;
+  background-color: #fff;
+  box-shadow: 0px 10px 22px rgba(186, 186, 186, 0.3);
+
+  position: relative;
+
+  border-radius: 5px;
+
+  animation: showToast 0.5s linear;
+
+  margin-bottom: 10px;
+}
+
+@keyframes hideToast {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.toastHide {
+  animation: hideToast 0.5s linear;
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+
+  margin-right: 16px;
+}
+
+.error {
+  text-align: left;
+}
+
+.errorTitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.errorMessage {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.buttonWrapper {
+  border: none;
+
+  outline: none;
+
+  position: absolute;
+  top: 4px;
+  right: 4px;
+
+  cursor: pointer;
+
+  background-color: var(--color-background);
+}
+
+.buttonWrapper:active {
+  transform: scale(0.95);
+}
+
+.closeButton {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 450px) {
+  .toast {
+    width: 240px;
+  }
+}

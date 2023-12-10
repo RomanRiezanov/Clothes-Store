@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@lingui/react": "^4.6.0",
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +13,7 @@
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",
     "axios": "^1.6.2",
+    "make-plural": "^7.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.0.2",
@@ -24,6 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lingui:extract": "lingui extract --clean --config ./core/configs/lingui.config.ts",
+    "lingui:compile": "lingui compile --typescript --config core/configs/lingui.config.ts",
+    "lingui:compile:ci": "lingui compile --strict --typescript --config core/configs/lingui.config.ts",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -43,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@lingui/cli": "^4.6.0",
+    "@lingui/macro": "^4.6.0"
   }
 }

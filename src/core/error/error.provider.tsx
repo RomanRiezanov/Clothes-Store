@@ -14,7 +14,7 @@ import Toast from "./toast/toast";
 import type { ErrorTransfer } from "./error.types";
 
 // styles
-import styles from "./toast/toast.css";
+import styles from "./toast/toast.module.css";
 
 type ErrorContext = {
   bug: InstanceType<typeof ErrorProvider>["bug"];

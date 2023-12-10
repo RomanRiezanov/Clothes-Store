@@ -8,7 +8,7 @@ import { localesContext } from "../../locale/locale.provider";
 import { CloseIcon } from "../../../assets/icons/Close-Icon";
 
 // styles
-import styles from "./toast.css";
+import styles from "./toast.module.css";
 
 type Props = {
   remove: () => void;
@@ -80,7 +80,7 @@ function Toast({ remove, content, type }: Props) {
           setIsShown(false);
         }}
       >
-        <CloseIcon width="24px" height="24px" />
+        <CloseIcon width="20px" height="20px" />
       </button>
     </div>
   );

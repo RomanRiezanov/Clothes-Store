@@ -1,0 +1,43 @@
+.buttonText {
+  padding: 9px 20px;
+  //   width: 133px;
+  height: 38px;
+  border: 0px;
+  border-radius: 6px;
+  background: #576067;
+  color: #b8b8b8;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  span {
+    width: 93px;
+    height: 20px;
+  }
+}
+
+.buttonSize {
+  padding: 4px 8px;
+  height: 25px;
+  border: 0px;
+  border-radius: 8px;
+  background: #212123;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f6f6f7;
+
+  cursor: pointer;
+  span {
+    height: 17px;
+  }
+}
+
+.active {
+  background: #6c3eb8;
+  color: #ffffff;
+}

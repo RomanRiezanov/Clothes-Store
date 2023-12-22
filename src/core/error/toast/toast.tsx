@@ -5,10 +5,10 @@ import React, { useContext, useEffect, useRef, useState } from "react";
 import { localesContext } from "../../locale/locale.provider";
 
 // icons
-import { CloseIcon } from "../../../app/assets/icons/Close-Icon";
 
 // styles
 import styles from "./toast.module.css";
+import { CloseIcon } from "../../../app/assets/icons/close-icon/Close-Icon";
 
 type Props = {
   remove: () => void;

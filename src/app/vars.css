@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --font-main: "Quicksand", sans-serif;
+
+  /* start our style */
+  --color-black: #061124;
+  --color-white: #ffffff;
+  --color-white-primary: #f2f2f2;
+  --color-dark: #031126ff;
+  --color-deep-dark: #030e20ff;
+  --color-light-dark: #252f3f;
+  --color-grey: #9e9e9e;
+  --color-grey-dark: #2f3542;
+  --color-grey-light: #8790a3ff;
+  --color-dark-yellow: #dacf2b;
+  --color-blue: #1b73ee;
+  --color-blue-light: #3742fa;
+  --color-blue-dark: #061124;
+  --color-blue-legal: #031152;
+  --color-green: #2ed573;
+  --color-light-green: #76da2b;
+  --color-red: #f44336;
+  --color-orange: #ffa502;
+  --color-dark-orange: #ff9900;
+  --сolor-brown: #805301;
+  --color-table-header-or-devider: #8790a3;
+  --color-site-backgroud: #031112;
+  --color-dark-blue-border: #0b1a37;
+  /* end our style */
+
+  --color-text-main: #070707;
+  --color-border-error: #ff4e4e;
+  --color-focus: #76a5ff;
+  --color-link: #ff712e;
+  --color-placeholder: #959595;
+  --color-placeholder-text: #787878;
+
+  --color-button-text: #3b3308;
+  --color-button-primary: #fee040;
+  --color-button-primary-hover: #ffca10;
+  --color-button-primary-disabled: #ffef9d;
+  --color-link-hover: #8e5add;
+  --color-button-form: #ffffff00;
+
+  --color-box-shadow-outset-gray: #747d8c;
+  --color-box-shadow-inset-blue: #ced6e0;
+
+  --color-button-semi-disabled: #959595;
+
+  --font-size-regular: 15px;
+  --line-height-regular: 21px;
+
+  --font-size-small: 13px;
+  --line-height-small: 18px;
+
+  --font-size-extra-small: 11px;
+  --line-height-extra-small: 18px;
+
+  --font-size-tiny: 9px;
+  --line-height-tiny: 13.5px;
+
+  --font-size-button: 17px;
+  --line-height-button: 24px;
+
+  --font-size-profile: 18px;
+  --line-height-profile: 25px;
+
+  --color-button: #ff6d00;
+  --color-button-hover: #ee6600;
+  --color-button-focus: #bae6ff;
+  --color-background: #ffffff;
+  --color-background-table-row: #131417;
+  --color-admin-background: #e5e5e5;
+  --color-foreground: #000000;
+  --color-secondary-background: #161429;
+  --color-secondary-text: #f7f5f4;
+  --color-border: #e0e0e0;
+  --color-accent: #ff4e4e;
+  --color-accent-faded: #ff6d6d;
+  --color-accent-hover: #e21a1a;
+  --color-success: #32d956;
+  --color-beige: #f7f5f4;
+  --color-label-text: #8f5bde;
+  --color-border-checkbox: #3e3e3e;
+  --color-disabled: #e6e0de;
+
+  --color-icon-success: #a5dc86;
+  --color-icon-border-seccess: #a5dc864d;
+}

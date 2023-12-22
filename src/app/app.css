@@ -1,0 +1,135 @@
+@import "vars.css";
+
+html {
+  background-color: rgb(54, 54, 54);
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+button {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+textarea,
+input {
+  font-family: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p[data-f-id="pbf"] {
+  display: none;
+}
+
+pre {
+  max-width: 100vw;
+}
+
+:root {
+  --primary: #15253e;
+  --gray: #6b6e85;
+  --lightGray: #9b9cac;
+  --white: #ffffff;
+  --backgroundDark: #212227;
+  --backgroundDarkHover: #0d182b;
+  --backgroundDarkActive: #091222;
+  --backgroundLight: #f9f9f9;
+  --backgroundLightActive: #f2f2f2;
+  --dividersGray: #d0d3d8;
+  --dividersLightGray: #eaebed;
+  --secondaryBlue: #578acc;
+  --secondaryLightBlue: #36b6cc;
+  --secondaryPink: #ebb9bc;
+  --secondaryYellow: #efd089;
+  --successBg: #f0faf3;
+  --successBorder: #9ee2b8;
+  --successGreen: #21a453;
+  --errorBg: #fbefee;
+  --errorBorder: #ecaca5;
+  --errorText: #d44333;
+  --folderGreen: #4e979d;
+  --folderGray: #69b2be;
+  --folderDarkBlue: #2b456e;
+  --folderLightBlue: #3772c7;
+  --folderBlue: #5f5bb6;
+  --folderDarkViolet: #696791;
+  --folderLightViolet: #878dcc;
+  --folderPink: #cc87a8;
+  --folderOrange: #dc7152;
+  --folderYellow: #efa96d;
+  --whiteGray: #ebebeb;
+
+  --tagHighestBg: #ebe4e4;
+  --tagHighestColor: #973345;
+  --tagHighBg: #e6d3d6;
+  --tagHighColor: #6c4343;
+  --tagMediumBg: #f3eee3;
+  --tagMediumColor: #8b745b;
+  --tagLowBg: #e2eaf2;
+  --tagLowColor: #6a89a7;
+  --tagLowestBg: #e1ebec;
+  --tagLowestColor: #748494;
+
+  /*
+    no need yet
+    --tagVioletBg: #dadbee;
+    --tagVioletText: #6c6e9a;
+    --tagBlueBg: #d1dae9;
+    --tagBlueText: #415574;
+    --tagPinkBg: #ebd7e1;
+    --tagPinkText: #ac6285;
+    --tagGreenBg: #d6e2e3;
+    --tagGreenText: #47888d;
+    --tagLightBlueBg: #cbe4e8;
+    --tagLightBlueText: #4093a2; */
+  --shadow: rgba(10, 10, 10, 0.29);
+  --hoverShadow: #f5f5f5;
+  --formShadow: 0px 24px 38px rgba(47, 53, 57, 0.03),
+    0px 9px 46px rgba(71, 116, 138, 0.02),
+    50 0px 11px 15px rgba(95, 137, 158, 0.04);
+}
+
+.suspenseLoader {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}

@@ -5,7 +5,7 @@ import React, { useContext, useEffect, useRef, useState } from "react";
 import { localesContext } from "../../locale/locale.provider";
 
 // icons
-import { CloseIcon } from "../../../assets/icons/Close-Icon";
+import { CloseIcon } from "../../../app/assets/icons/Close-Icon";
 
 // styles
 import styles from "./toast.module.css";

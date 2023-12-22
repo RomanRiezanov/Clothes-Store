@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
-import { errorContext } from "../core/error/error.provider";
+// styles
+import "./app.css";
 
 function App() {
-  return <div>APP</div>;
+  return <div style={{ background: "var(--color-white" }}>APP</div>;
 }
 
 export default App;
